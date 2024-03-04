@@ -1,0 +1,123 @@
+img {
+    border-radius: 10%;
+}
+
+/* Custom CSS for Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.animated.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.project-item:hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.bounceInLeft {
+    animation-name: bounceInLeft;
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.bounceInRight {
+    animation-name: bounceInRight;
+}
+
+.delay-1s {
+    animation-delay: 1s;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #fff;
+}
+
+.carousel-item {
+    justify-content: center;
+    text-align: center;
+}
+
+#carouselExample {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.btn.btn-primary{
+    margin-bottom: 25px;
+}

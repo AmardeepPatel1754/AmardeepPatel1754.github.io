@@ -1,1 +1,175 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="animated bounceInLeft">
+                    <header class="h1">Amardeep Patel -
+                        Software Developer👨🏼‍💻</header>
+                </div>
+                <p class="animated bounceInLeft delay-1s">As a passionate software developer with a keen eye for detail
+                    and a drive for innovation, I bring a fresh perspective to every project I undertake.I've developed
+                    my abilities to create reliable, user-focused software solutions that go above and beyond
+                    expectations.My passion for solving problems and my dedication to lifelong learning have been the
+                    motivations behind my career in software development. I love challenges, whether it's creating sleek
+                    web apps or designing intricate backend systems.Let's connect and bring your ideas to life together!
+                </p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="pic2.jpg" alt="Your Photo">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="animated">Education</h3>
+                <ul class="animated">
+                    <h5>Mohawk College, Hamilton, ON</h5>
+                    <li>Computer System Technician - Software Support (Sept 2022 to April 2024)</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="animated">Skills</h3>
+                <ul class="animated">
+                    <h5>Technical Skills</h5>
+                    <li>Programming Languages: Java, JavaScript, PHP, C & C#, etc.</li>
+                    <li>Tools and Technologies: Git, VS Code, Intellij Idea, Github, Putty</li>
+                    <li>Web Development: HTML, CSS, React.js, JavaScript, BootStrap</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <h3>Projects</h3>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h5>A Simple pong game created a JavaScript</h5>
+                        <p>As part of my programming project, I created a classic game of Pong to demonstrate my
+                            proficiency with SVG graphics and JavaScript. I had to handle user input, build game logic,
+                            and use SVG elements to create dynamic animations for this project. Using event listeners
+                            and interval functions, I was able to make a gaming experience that was both responsive and
+                            interesting. I also included Bootstrap for responsive design and styling, which makes the
+                            design work on a variety of devices. I improved my problem-solving skills and obtained
+                            useful web development experience through this project. Pong, all things considered, is a
+                            reflection of my love for programming and my commitment to creating well-designed, engaging
+                            applications.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5>To-Do List</h5>
+                        <p>Using HTML, CSS, and JavaScript, I created a dynamic to-do list application to improve task
+                            management and productivity. This project offered a smooth and simple user experience by
+                            enabling users to add, remove, and mark jobs as finished with a single click. I made sure
+                            the application worked on different screens and devices by using Bootstrap for
+                            responsiveness and style. I improved my front-end web programming abilities and acquired
+                            useful experience putting interactive features into websites thanks to this project. The
+                            To-Do List project is a manifestation of my dedication to developing workable solutions that
+                            increase productivity and simplify everyday chores.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5>Inifinite Scroll</h5>
+                        <p>For COMP 10260, I created an infinite scroll application as a class assignment. This project
+                            creates a smooth surfing experience by dynamically loading quotes from a database as the
+                            user scrolls down the page, utilizing HTML, CSS, JavaScript, PHP, and MySQL. Through the
+                            utilization of pagination and asynchronous data fetching, I managed to guarantee effective
+                            data retrieval and maximized efficiency. The project demonstrates my proficiency in both
+                            front-end and back-end web development, along with my aptitude for creating intuitive and
+                            adaptable user interfaces. Despite being developed for academic objectives, this project
+                            showcases my ability to construct useful and engaging web applications.</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="animated">Resume</h3>
+                <p class="animated"><h6>You can find my Resume <a href="D:\Data\Documents\Resume.pdf" download="Amardeep's Resume.pdf">Here</h6></a></p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="animated">Contact Me</h3>
+                <p class="animated">I'd love to hear from you! Whether you have a project in mind, want to collaborate, or just want to say hello, feel free to reach out to me using the form below or through my social media channels.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <p>Feel free to connect with me on:</p>
+                <ul>
+                    <li>Email:<a href="mailto:amardeeppatel4872@gmail.com">amardeeppatel4872@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/amardeep-patel-a3876b2aa/">LinkedIn Profile</a></li>
+                    <li>Github: <a href="https://github.com/AmardeepPatel1754">Github Profile</a></li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <footer class="text-center">
+                        <p>&copy; 2024 Amardeep Patel. All rights reserved.</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
